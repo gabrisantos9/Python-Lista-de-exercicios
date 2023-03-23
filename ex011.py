@@ -1,0 +1,6 @@
+largura = int(input("Digite a largura da parede:"))
+altura = int(input("Digite a altura da parede:"))
+area = (largura * altura)
+rendimento_litro = (2**2)
+quantidade_tinta_necessaria = (area / rendimento_litro )
+print("A quantidade de tinta necessária para pintar a parede é de : {} litros".format(quantidade_tinta_necessaria) )
