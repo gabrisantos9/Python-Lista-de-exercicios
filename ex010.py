@@ -1,3 +1,10 @@
-saldo_bancario = int(input("Digite seu saldo bancário:"))
-dolares = int(saldo_bancario / 5.24)
-print("Seu saldo bancário é : R$ {} e voçê pode comprar: U$$ {}".format(saldo_bancario,dolares))
+saldo_bancario = float(input("Digite seu saldo bancário: R$"))
+dolar = (saldo_bancario / 5.30)
+euro = (saldo_bancario / 5.73)
+libra = (saldo_bancario / 6.50)
+iene = (saldo_bancario / 0.041)
+bitcoin = (saldo_bancario / 149.918)
+
+print("Seu saldo bancário é : R$ {:.2f} e voçê pode comprar dólares : U$$ {:.2f}".format(saldo_bancario,dolar))
+print("Você pode comprar euros : € {:.2f} e libras : £ {:.2f}".format(euro,libra))
+print("Você pode comprar ienes : ¥ {:.2f} e bitcoins : ₿ {:.2f}".format(iene,bitcoin))

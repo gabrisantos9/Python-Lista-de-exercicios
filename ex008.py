@@ -1,4 +1,4 @@
-metros = int(input("Digite um número em metros: "))
-centimetros = int(metros * 100)
-milimetros = int(metros * 1000)
-print("O número em metros é: {}, convertido em centímetros: {}, convertido em milimetros: {}".format(metros,centimetros,milimetros))
+metros = float(input("Digite a distância em metros:"))
+centimetros = (metros * 100)
+milimetros = (metros * 1000)
+print("A distância {}m, convertido cm : {}cm, convertido mm : {}mm".format(metros,centimetros,milimetros))
